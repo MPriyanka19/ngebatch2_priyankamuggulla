@@ -1,0 +1,476 @@
+    1  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    2  sudo apt install wget
+    3  sudo dpkg -i google-chrome-stable_current_amd64.deb
+    4  sudo apt update
+    5  sudo apt install wget
+    6  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    7  sudo apt install ./google-chrome-stable_current_amd64.deb
+    8  google-chrome
+    9  apt-get update
+   10  sudo apt upgrade
+   11  sudo apt install wget
+   12  ls
+   13  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   14  sudo apt update
+   15  sudo apt install xfce4 xfce4-goodies -y
+   16  sudo apt install xrdp -y
+   17  sudo systemctl status xrdp
+   18  sudo systemctl start xrdp
+   19  sudo nano /etc/xrdp/xrdp.ini
+   20  cd
+   21  echo "xfce4-session" | tee .xsession
+   22  sudo systemctl restart xrdp
+   23  sudo ufw allow from your_local_ip/32 to any port 3389
+   24  sudo ufw status
+   25  sudo passwd root
+   26  sudo su
+   27  sudo apt update
+   28  sudo apt install wget
+   29  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   30  sudo apt install ./google-chrome-stable_current_amd64.deb
+   31  google-chrome
+   32  sudo su
+   33  sudo apt update
+   34  sudo apt install wget
+   35  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   36  sudo apt install ./google-chrome-stable_current_amd64.deb
+   37  google-chrome
+   38  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   39  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   40  sudo apt-get install -f
+   41  google-chrome --version
+   42  google-chrome
+   43  vim /usr/bin/google-chrome
+   44  google-chrome
+   45  curl -o-
+   46  https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh
+   47  | bash
+   48  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
+   49  nvm version
+   50  nvm
+   51  . ~/.nvm/nvm.sh
+   52  nvm
+   53  nvm ls
+   54  nvm install --lts
+   55  node -v
+   56  cls
+   57  clear
+   58  node
+   59  sudo apt install software-properties-common apt-transport-https wget gpg
+   60  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+   61  clear
+   62  sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+   63  sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+   64  rm -f packages.microsoft.gpg
+   65  sudo apt install apt-transport-https
+   66  clear
+   67  sudo apt update
+   68  sudo apt install code
+   69  clear
+   70  sudo apt update && sudo apt upgrade -y
+   71  node test.js 
+   72  npm i -g typescript ts-node
+   73  npm lg -g
+   74  npm ls -g
+   75  node -v
+   76  cd \
+   77  pwd
+   78  cd ..
+   79  ls
+   80  cd Downloads
+   81  ls
+   82  sudo apt install ~/Downloads/code_*.deb
+   83  code
+   84  sudo apt update
+   85  code
+   86  sudo code
+   87  sudo apt install code
+   88  code
+   89  code .
+   90  code
+   91  xdg-mime default code.desktop text/plain
+   92  code
+   93  code --no-sandbox
+   94  clear
+   95  sudo apt-get update
+   96  sudo apt-get install compizconfig-settings-manager
+   97  ccsm
+   98  code
+   99  code .
+  100  code --no-sandbox
+  101  sudo code
+  102  pwd
+  103  sudo code --user-data-dir="~/.vscode-root"
+  104  code .
+  105  sudo code --user-data-dir="~/.vscode-root" --no-sandbox
+  106  sudo code /root/Practice/ --user-data-dir='.' --no-sandbox
+  107  code 
+  108  sudo chown -R root:root ~/.config/Code
+  109  cd ..
+  110  pwd
+  111  cd ..
+  112  cd home/
+  113  ls
+  114  cd ubuntu/
+  115  ls
+  116  echo $HOME
+  117  cd .root
+  118  cd /root
+  119  vi .bashrc 
+  120  code 
+  121  source .bashrc
+  122  code
+  123  sudo code /root/Practice/ --user-data-dir='.' --no-sandbox
+  124  clear
+  125  git --version 
+  126  sudo yum remove awscli
+  127  sudo apt remove awscli
+  128  sudo pwd
+  129  cd ..
+  130  cd root/
+  131  cd Downloads
+  132  ls
+  133  curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" 
+  134  unzip awscliv2.zip
+  135  sudo ./aws/install
+  136  aws --version
+  137  clear
+  138  npm install -g aws-cdk
+  139  npm install -g npm@10.4.0
+  140  cdk version
+  141  docker
+  142  clear
+  143  sudo apt update
+  144  [4:51 PM] Shetty, Akshay
+  145  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  146  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+  147  https://download.docker.com/linux/ubuntu
+  148  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  149  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+  150  https://download.docker.com/linux/ubuntu
+  151  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+  152  clear
+  153  sudo apt update
+  154  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+  155  https://download.docker.com/linux/ubuntu
+  156  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  157  sudo apt update
+  158  vi /etc/apt/sources.list.d/docker.list
+  159  clear
+  160  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  161  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg]
+  162  https://download.docker.com/linux/ubuntu
+  163  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  164  sudo apt update
+  165  apt-cache policy docker-ce
+  166  vi /etc/apt/sources.list.d/docker.list
+  167  printf "%s\n" "deb [arch=amd64] https://download.docker.com/linux/debian buster stable" |sudo tee /etc/apt/sources.list.d/docker.list
+  168  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/debian \
+  169     $(lsb_release -cs) \
+  170     stable"
+  171  apt-cache policy docker-ce
+  172  sudo apt install docker-ce
+  173  clear
+  174  sudo apt install gnome-terminal
+  175  sudo apt-get update
+  176  sudo apt-get install ./docker-desktop-<version>-<arch>.deb
+  177  clear
+  178  sudo apt-get update
+  179  ,clear
+  180  clear
+  181  apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 
+  182  gpg --keyserver pgp.mit.edu --recv-keys 648ACFD622F3D138 0E98404D386FA1D9 605C66F00D6C9793
+  183  apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 605C66F00D6C9793     0E98404D386FA1D9 648ACFD622F3D138
+  184  gpg --keyserver keyserver.ubuntu.com --recv 871920D1991BC93C  
+  185  sudo apt-get -y install podman
+  186  podman run --rm docker.io/dougrabson/hello
+  187  podman
+  188  podman --help
+  189  podman podman run --name basic_httpd -dt -p 8080:80/tcp docker.io/nginx
+  190  podman run --name basic_httpd -dt -p 8080:80/tcp docker.io/nginx
+  191  sudo apt-get update
+  192  sudo apt update
+  193  sudo apt -y install make
+  194  make
+  195  make --help
+  196  make version
+  197  make --version
+  198  clear
+  199  make --version
+  200  npm -v
+  201  code 
+  202  cdk version
+  203  podman run --rm docker.io/dougrabson/hello
+  204  podman ls
+  205  podman ps
+  206  clear
+  207  sudo apt install -y jq
+  208  jq
+  209  clear
+  210  node -v
+  211  npm -v
+  212  nvm -v
+  213  cdk version
+  214  make version
+  215  git version
+  216  jq version
+  217  podman -v
+  218  sudo code /root/Practice/ --user-data-dir='.' --no-sandbox
+  219  ls
+  220  sudo dpkg -i code_1.85.2-1705561292_amd64.deb 
+  221  code 
+  222  code
+  223  echo $USER
+  224  sudo code --user-data-dir='.' --no-sandbox
+  225  sudo code /directory-to-open --user-data-dir='.' --no-sandbox
+  226  .
+  227  aws --version
+  228  cls
+  229  clear
+  230  npm i -g aws-azure-login
+  231  sudo npm install -g aws-azure-login --unsafe-perm
+  232  npm install -g aws-azure-login --unsafe-perm
+  233  aws-azure-login -version
+  234  aws-azure-login -v
+  235  clear
+  236  git
+  237  clear
+  238  aws-azure-login --configure --profile aws-pune
+  239  aws configure set region ap-south-1 --profile <profile-name>
+  240  aws configure set region ap-south-1 --profile aws-pune
+  241  aws-azure-login --profile aws-pune
+  242  sudo aws-azure-login --profile aws-pune
+  243  su aws-azure-login --profile aws-pune
+  244  clear
+  245  aws-azure-login --profile aws-pune
+  246  aws-azure-login --configure --profile
+  247  aws-azure-login --configure --profile aws-pune
+  248  aws configure set region ap-south-1 --profile aws-pune
+  249  aws-azure-login --profile aws-pune
+  250  sudo chmod -R go+rx $(npm root -g)
+  251  aws-azure-login --profile aws-pune
+  252  aws-azure-login --profile aws-pune --mode console
+  253  aws-azure-login --profile aws-pune --mode=console
+  254  aws-azure-login --profile aws-pune --mode=gui
+  255  aws-azure-login --profile aws-pune --no-sandbox --mode gui
+  256  aws-cdk
+  257  cls
+  258  clear
+  259  aws s3 ls --profile aws-pune
+  260  aws-azure-login --profile aws-pune --no-sandbox --mode gui
+  261  npm
+  262  install -g
+  263  aws-cdk@2
+  264  npm install -g aws-cdk@2
+  265  npm i -g aws-cdk@2
+  266  clear
+  267  npm i -g aws-cdk@2
+  268  aws-cdk
+  269  npm install -g aws-cdk@2
+  270  aws-cdk
+  271  npm uninstall aws-cdk@2
+  272  npm install -g aws-cdk@2
+  273  cdk --version
+  274  cd k-v
+  275  cdk -v
+  276  clear
+  277  cdk --version
+  278  aws-azure-login --configure --profile academy-pune
+  279  clear
+  280  aws-azure-login --configure --profile academy-pune
+  281  aws-azure-login --configure --profile academy-ngeisot
+  282  aws configure set region ap-south-1 --profile academy-ngeisot
+  283  aws-azure-login --profile academy-ngeisot
+  284  aws-azure-login --profile academy-ngeisot --code-nosandbox
+  285  aws-azure-login --profile academy-ngeisot --no-sandbox
+  286  aws-azure-login --profile academy-ngeisot --no-sandbox --mode=gui
+  287  aws s3 ls --profile academy-ngeisot
+  288  clear
+  289  make
+  290  clear
+  291  aws --version
+  292  aws help
+  293  aws
+  294  aws profiles help
+  295  aws profile
+  296  clear
+  297  aws configure set region ap-south-1 --profile ngeisot
+  298  aws --help
+  299  aws help
+  300  aws-azure-login --profile ngeisot --no-sandbox --mode gui
+  301  aws profile
+  302  aws configure
+  303  aws-azure-login --configure --profile negisotacademy
+  304  aws configure set region ap-south-1 --profile ngeisotacademy
+  305  aws-azure-login --profile ngeisotacademy --no-sandbox --mode=gui
+  306  aws-azure-login --profile negisotacademy --no-sandbox --mode=gui
+  307  clear
+  308  aws-azure-login --configure --profile ngeisotacademy
+  309  aws configure set region ap-south-1 --profile ngeisotacademy
+  310  aws-azure-login --profile ngeisotacademy --no-sandbox --mode=gui
+  311  clear
+  312  aws-azure-login --profile ngeisotacademy --no-sandbox --mode=gui
+  313  aws sts get-caller-identity
+  314  aws configure set region ap-south-1 --profile ngeisotacademy
+  315  aws sts get-caller-identity
+  316  cls
+  317  clear
+  318  echo "export AWS_PROFILE=ngeisotacademy" >> ~/.zshrc
+  319  alias aws-logon='aws-azure-login --profile ngeisotacademy --no-sandbox --mode=gui'
+  320  aws-logon
+  321  alias aws-logon='aws-azure-login --profile ngeisotacademy --no-sandbox --mode=gui'
+  322  aws-logon
+  323  sudo code ~/.bashrc --user-data-dir='.' --no-sandbox
+  324  aws-logon
+  325  aws get sts-caller-identity
+  326  aws get help
+  327  aws-cli get help
+  328  aws get-caller-identity
+  329  aws sts get-caller-identity
+  330  sudo aws sts get-caller-identity
+  331  vi ~/aws/.credentials
+  332  vi ~/.aws/credentials
+  333  sudo code ~/.aws/credentials --user-data-dir='.' --no-sandbox
+  334  sudo aws sts get-caller-identity
+  335  aws configure list
+  336  aws configure
+  337  aws configure list
+  338  aws sts get-caller-identity
+  339  aws configure list
+  340  aws configure
+  341  aws configure list
+  342  aws configure list --profile=ngisotacademy
+  343  aws configure list --profile=ngeisotacademy
+  344  aws sts get-caller-identity
+  345  aws-logon
+  346  aws s3 ls --profile=ngeisotacademy
+  347  vi ~/.bashrc
+  348  aws s3 ls
+  349  aws configure list
+  350  source ~/.bashrc
+  351  echo AWS_PROFILE
+  352  AWS_PROFILE
+  353  echo $AWS_PROFILE
+  354  aws s3 ls --profile=ngeisotacademy
+  355  aws s3 ls
+  356  aws s3 ls 
+  357  aws-logon
+  358  aws s3 ls 
+  359  aws s3 cp ./gig-123-flyer.pdf s3://akshay-test-bucket-27022024
+  360  aws s3 ls
+  361  aws s3 ls akshay-test-bucket-27022024
+  362  export
+  363  GIGS_STACK_NAME=
+  364  "mohana-gigs"
+  365  vi ~/.bashrc
+  366  source ~/.bashrc
+  367  exit
+  368  echo $GIGS_STACK_NAME
+  369  vi ~/.bashrc 
+  370  source ~./bashrc
+  371  source ~/.bashrc
+  372  echo $GIGS_DOMAIN
+  373  aws-logon
+  374  npm i -g aws-cdk@2
+  375  cdk --version
+  376  sudo code ~/exercises/ --user-data-dir='.' --no-sandbox
+  377  aws-logon
+  378  sudo code "." --user-data-dir='.' --no-sandbox
+  379  sudo code "root" --user-data-dir='.' --no-sandbox
+  380  cdk ls
+  381  cd ..
+  382  cd exercises/
+  383  cdk ls
+  384  cd mohana-gigs-S3/
+  385  cdk ls
+  386  npx cdk synth
+  387  cdk --version
+  388  cls
+  389  clear
+  390  ls -la
+  391  mkdir mohana-gigs-S3
+  392  cd mohana-gigs-S3/
+  393  cd ..
+  394  cd mohana-gigs-S3/
+  395  cdk init app --language typescript --generate-only
+  396  npm i
+  397  cdk ls
+  398  npc cdk destroy
+  399  npx cdk destroy
+  400  cd ..
+  401  ls -la
+  402  pwd
+  403  sudo code "." --user-data-dir='.' --no-sandbox
+  404  aws-logon
+  405  aws s3 ls
+  406  aws ec2 describe-availability-zones     --region eu-west-1
+  407  aws-logon
+  408  npm i -g aws-azure-login
+  409  npm install -g aws-cdk@2
+  410  npm install -g npm@10.5.0
+  411  git --help
+  412  npm i -d typescript ts-node
+  413  npm i -d @types/express
+  414  cls\
+  415  cls
+  416  clear
+  417  npm install -D jest ts-jest   "@testing-library/jest-dom"   "@testing-library/react"   "@testing-library/user-event"   "@types/jest"
+  418  sudo su
+  419  sudo dpkg -i taniumclient_7.4.8.1042-ubuntu22_amd64.deb
+  420  sudo su
+  421  sudo dpk -i Taniumclient_7.4.8.1042-ubuntu22_amd64.deb
+  422  sudo dpkg -i Taniumclient_7.4.8.1042-ubuntu22_amd64.deb
+  423  cd /opt/Tanium/TaniumClient/
+  424  ./TaniumClient config set ServerNameList tanium-srv-prod-a.accenture.com,tanium-srv-prod-b.accenture.com,tanium-srv-prod-z1.accenture.com,tanium-srv-prod-z2.accenture.com
+  425  ./TaniumClient config set LogVerbosityLevel 1
+  426  ./TaniumClient config set ServerPort 443
+  427  ./TaniumClient config set ListenPort 17472
+  428  ./TaniumClient config set Resolver nslookup
+  429  cd/root
+  430  cd /root
+  431  cp -a tanium-init.dat /opt/Tanium/TaniumClient/
+  432  cd /desktop/tanium
+  433  cd /Desktop/tanium
+  434  cp -a tanium-init.dat /opt/Tanium/TaniumClient/
+  435  ls -l /opt/Tanium/TaniumClient/
+  436  sudo dpkg -i Linux_Deb_QualysCloudAgent.x86_64_6.0.0.41 1.deb
+  437  sudo /usr/local/qualys/cloud-agent/bin/qualys-cloud-agent.sh ActivationId=50e0f13e-f88f-4b0f-8422-eeb5815e8b68 CustomerId=af433332-5b18-7be7-e040-10ac130451e8 ProviderName=AWS
+  438  sudo su
+  439  sudo dpkg -i Linux_Deb_QualysCloudAgent.x86_64_6.0.0.41 1.deb
+  440  sudo su
+  441  sudo /usr/local/qualys/cloud-agent/bin/qualys-cloud-agent.sh ActivationId=50e0f13e-f88f-4b0f-8422-eeb5815e8b68 CustomerId=af433332-5b18-7be7-e040-10ac130451e8 ProviderName=AWS
+  442  sudo dpkg -i Linux_Deb_QualysCloudAgent.x86_64_6.0.0.411.deb
+  443  sudo /usr/local/qualys/cloud-agent/bin/qualys-cloud-agent.sh ActivationId=50e0f13e-f88f-4b0f-8422-eeb5815e8b68 CustomerId=af433332-5b18-7be7-e040-10ac130451e8 ProviderName=AWS
+  444  sudo dpkg -i Linux_Deb_QualysCloudAgent.x86_64_6.0.0.41.deb
+  445  chmod +x mde_installer.sh
+  446  ./mde_installer.sh -i
+  447  sudo su
+  448  mkdir NGE_Priyanka
+  449  ls
+  450  cd NGE_Priyanka
+  451  touch t1.txt
+  452  cat > t2.txt
+  453  cat t2.txt
+  454  cat t1.txt
+  455  cat t2.txt
+  456  cat > t2.txt
+  457  cat t2.txt
+  458  cp t2.txt /root/t3.txt
+  459  cd ..
+  460  echo $SHELL
+  461  ls
+  462  cd NGE_Priyanka
+  463  mv t1.txt t3.txt
+  464  ls
+  465  rm t3.txt
+  466  ls
+  467  ls -a
+  468  cd
+  469  ls -a
+  470  ls -lrt
+  471  ls -l
+  472  man
+  473  man ls
+  474  history
+  475  clear
+  476  history > t1.txt
