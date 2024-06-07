@@ -37,11 +37,24 @@ app.get('/prod',(req,res)=>{
 
 });
 
+
+app.use(express.json())
+ 
+// POST Request
 app.post('/loginUser',(req,res)=>{
-    console.log("To create a user login", req.body);
-    const obj = req.body.user;
-    //app.use(express.json({ob}));
-})
+    console.log("To create a user login - pass the info as post body",req.body.user);
+    const object = req.body.user;
+    res.json({result:object})
+   
+});
+
+
+app.post('/prod',(req,res)=>{
+    console.log("To create a product", req.body.product);
+    const object = req.body.product;
+    res.send({result:object});
+});
+
 
 //***** EXERCISE****//
 app.get('/add/:n1/:n2',(req,res)=>{
