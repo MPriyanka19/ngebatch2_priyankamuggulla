@@ -89,8 +89,8 @@ const queryFood = (foodId:number):Promise<Food>=>
 const findFavouriteFood = (name: string) =>{
   return new Promise((resolve) => {
     queryUser(name)
-      .then((person) => queryFood(person.food))
-      .then((foodItem) => resolve(`${name} likes ${foodItem.name}`))
+      .then((person:any) => queryFood(person.food))
+      .then((foodItem:any) => resolve(`${name} likes ${foodItem.name}`))
   })
 }
 // Debugging: Use these before you start to help you understand what the code is doing

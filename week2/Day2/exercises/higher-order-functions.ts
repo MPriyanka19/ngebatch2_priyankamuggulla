@@ -77,7 +77,17 @@ export function getAverageAge(developers: Developer[]) {
 // For the list above, it would return { Javascript: 1, Python: 2 }
 // NB. Developers could know any language (not just JS or Python), so the keys of the object will depend on what developers you get passed.
 export function getLanguageCounts (developers: Developer[]) {
-
+  const langCount :{[language:string]:number} ={};
+  for(const developer of developers)
+  {
+    const language = developer.language;
+    if(langCount[language]){
+      langCount[language]++;
+     }else{
+      langCount[language]=1;
+     }
+  }
+  return langCount;
 }
 
 // getOldest should return an array which includes the name of the developer who is the oldest.

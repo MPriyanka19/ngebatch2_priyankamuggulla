@@ -1,6 +1,6 @@
 const Dev=[
     { firstName: 'Sofia', lastName: 'I.', country: 'Argentina', continent: 'Americas', age: 34, language: 'Javascript' },
-    { firstName: 'Aisha', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: 'Java' },
+    { firstName: 'Aisha', lastName: 'X.', country: 'Croatia', continent: 'Europe', age: 35, language: 'Javascript' },
     { firstName: 'Madison', lastName: 'U.', country: 'United States', continent: 'Americas', age: 23, language: 'Python' }
 ];
 // For the list above it would return 1.
@@ -56,4 +56,17 @@ export function getAverageAge(developers: any[]) {
         return oldestNames
   }
   console.log(getOldest(Dev));
- 
+  export function getLanguageCounts (developers: any[]) {
+    const langCount :{[language:string]:number} ={};
+    for(const developer of developers)
+    {
+      const language = developer.language;
+      if(langCount[language]){
+        langCount[language]++;
+       }else{
+        langCount[language]=1;
+       }
+    }
+    return langCount;
+  }
+  console.log(getLanguageCounts(Dev))
