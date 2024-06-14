@@ -23,13 +23,15 @@ const academyUsers: SomeUsers = {
 // and without mutating the original user objects either
 
 const ageUpdater = (originalUsers: SomeUsers) => {
+  return Object.entries(originalUsers).reduce((newUsers,[key,user])=>{
+    newUsers[key] ={...user,age:21};
+    return newUsers;
+  },{} as SomeUsers)
   // TODO: Your code goes here
-  const copyAge ={...originalUsers};
-  for (const key in copyAge) {
-    copyAge[key].age = 21
-    }
-    return copyAge
-   }
+}
+
+
+   
 // Call the Age Updater function
 const updatedUsers = ageUpdater(academyUsers)
 
