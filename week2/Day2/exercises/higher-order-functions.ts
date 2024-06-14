@@ -77,7 +77,7 @@ export function getAverageAge(developers: Developer[]) {
 // For the list above, it would return { Javascript: 1, Python: 2 }
 // NB. Developers could know any language (not just JS or Python), so the keys of the object will depend on what developers you get passed.
 export function getLanguageCounts (developers: Developer[]) {
-  
+
 }
 
 // getOldest should return an array which includes the name of the developer who is the oldest.
@@ -96,4 +96,8 @@ export function getOldest (developers: Developer[]) {
 // For the list above, it would return false
 export function isGlobalGroup (developers: Developer[]) {
 
+    let GlobalContinents = ["Africa", "Americas", "Asia", "Europe", "Oceania"];
+    let developersContinents = developers.map((d: any) => d.continent);
+    return GlobalContinents.every((el) => developersContinents.includes(el));
 }
+
