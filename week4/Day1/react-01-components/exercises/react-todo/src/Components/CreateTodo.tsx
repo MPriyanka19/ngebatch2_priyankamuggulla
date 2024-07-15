@@ -9,9 +9,10 @@ export interface ToDo {
 const CreateTodo = (props:any) => {
     const [task, setTask] = useState("");
     const hadleInput = (e: any) => setTask(e.target.value)
-    const onSave = () => {
-        props.sendData(task)
-    }
+  const onSave = () => {
+    props.sendData(task)
+    
+  }
   return (
     <div>
       <input
