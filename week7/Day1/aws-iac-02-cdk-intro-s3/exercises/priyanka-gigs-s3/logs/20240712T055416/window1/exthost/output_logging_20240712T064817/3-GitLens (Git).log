@@ -1,0 +1,24 @@
+[2024-07-12 06:48:20.281] [     10ms] [/root/aws-iac-02-cdk-intro-s3/exercises] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-12 06:48:32.557] [     25ms] [/root/aws-iac-02-cdk-intro-s3/exercises/priyanka-gigs-s3/lib] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-12 06:49:01.070] [     11ms] [/root/aws-iac-02-cdk-intro-s3/exercises/priyanka-gigs-s3/bin] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-12 07:00:39.336] [     18ms] [/root/aws-iac-02-cdk-intro-s3/exercises/priyanka-gigs-s3/node_modules/aws-cdk-lib] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
