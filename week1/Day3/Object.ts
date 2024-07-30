@@ -14,7 +14,7 @@ export let emp1={
 
 };
 let empno=emp1.eno;
-let {eno,ename,sal,age,DisplayEmployee,work}=emp1;
+let {eno,ename,sal,age,DisplayEmployee,work}=emp1; 
 console.log("In Object file unsing destructing:",emp1.eno);
 console.log("without destructuring",empno);
 let g = function(){
